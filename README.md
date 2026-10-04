@@ -95,7 +95,7 @@ The join proves a single actor was active across AWS and Windows and performed *
 | Discovery | T1580 – Cloud Infrastructure Discovery | `Describe*` / `List*` reconnaissance |
 | Persistence | T1136.003 – Create Account: Cloud Account | `CreateUser` backdoor-svc + `CreateAccessKey` |
 | Privilege Escalation | T1098.003 – Account Manipulation: Additional Cloud Roles | `AttachUserPolicy` → AdministratorAccess |
-| Defense Evasion | T1562.008 – Impair Defenses: Disable Cloud Logs | `StopLogging`, `DeleteTrail` |
+| Defense Evasion | T1562.008 – Impair Defenses: Disable or Nodify Cloud Logs | `StopLogging`, `DeleteTrail` |
 | Defense Evasion | T1070.001 – Indicator Removal: Clear Windows Event Logs | Windows Event ID 1102 on `win11a` |
 | Collection | T1530 – Data from Cloud Storage | `GetObject` on secrets / HR / finance buckets |
 | Impact | T1496 – Resource Hijacking | `RunInstances` large GPU compute |
